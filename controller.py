@@ -14,7 +14,7 @@ def calc_complex():
 
 
 def calc_fractional():
-    number_1, number_2, oper = ui.input(type(float))
-    result = float_calc.calc(number_1, number_2, oper)
+    number_1, number_2, oper = ui.input(type(float)) #Семен
+    result = float_calc.calc(number_1, number_2, oper) #Ренат
     login.log_in_file(number_1, number_2, oper, result)
     ui.output(result)
