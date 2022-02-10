@@ -4,4 +4,5 @@ select = input('Вычмсление комплексных/рациональн
 
 if select == '1': 
     controller.calc_complex()
-if select == '2': controller.calc_fractional()
+if select == '2': 
+    controller.calc_fractional()
