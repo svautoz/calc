@@ -10,6 +10,7 @@ def input_data(input_type):
     else:
         choose_method = 0
         input_info = 'Operation (+-/*): '
+        
     call = {
         0: check_oper,
         1: check_complex,
